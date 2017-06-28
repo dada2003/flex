@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-    margin: 0 auto;
+    margin: 30px auto;
     width: 1200px;
     height: 600px;
     background-color: #DAA520;
@@ -13,35 +13,37 @@ body {
     align-items: center;
 }
 
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+    align-items: center;
+}
+img{
+    background-color: transparent;
+}
+
 .container__block1 {
     width: 360px;
     height: 441px;
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 }
-.container__block1:hover{
+
+.container__block1:hover {
     background-color: aquamarine;
     width: 380px;
     height: 451px;
-    transition:all 0.3 ease;
-    
+    transition: all 0.3 ease;
 }
 
 .title {
     width: 52px;
     height: 53px;
     color: #02995b;
-    font-family:'Anton', sans-serif;;
-    font-size: 70px;
-    font-weight: 700;
-    line-height: 24px;
-}
-.block1__img--bean{
-    order: -4;
-    z-index: 1;
+    font-family: 'Anton', sans-serif;
+    font-size: 52px;
+    font-weight: 100;
+    
 }
 
 .sub {
@@ -58,43 +60,31 @@ body {
     line-height: 26px;
 }
 
-.mak {
-    font-family: Lato;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 26px;
-}
 
 .container__block2 {
     width: 361px;
     height: 500px;
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.container__block2:hover{
+.container__block2:hover {
     background-color: aquamarine;
     width: 380px;
     height: 551px;
-    transition:all 0.3 ease;
+    transition: all 0.3 ease;
 }
-    
 
 .container__block3 {
     width: 361px;
     height: 441px;
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    
 }
-.container__block3:hover{
+
+
+.container__block3:hover {
     background-color: aquamarine;
     width: 380px;
     height: 451px;
-    transition:all 0.3 ease;
+    transition: all 0.3 ease;
 }
